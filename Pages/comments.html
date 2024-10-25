@@ -22,8 +22,81 @@
 
         <div id="banner"></div>
 
-        <div>
-            Comentários
+        <div class="comments-box">
+            <div class="title"><h2>Comentários</h3></div>
+
+            <div class="comments-container">
+                <div class="content">
+                    <div class="card">
+                        <div class="data">
+                            <div class="avatar">
+                                <img class="avatar-icon" src="../Media/person-icon.png"/>
+                                <h3 class="avatar-name">Meu Nome Aqui</h3>
+                            </div>
+                            <button type="button" class="comment-like">
+                                <img class="like-heart" src="../Media/full-heart.png"/>
+                                <h3 class="like-count">32</h3>
+                            </button>
+                        </div>
+                        <div class="commet-text">
+                            <h4>
+                                Esse aqui é o comentário super produtivo e de alta qualidade que eu nunca comentei antes, e como pode ver ele realmente é sensasional! 😊
+                            </h4>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="card">
+                        <div class="data">
+                            <div class="avatar">
+                                <img class="avatar-icon" src="../Media/person-icon.png"/>
+                                <h3 class="avatar-name">Hater</h3>
+                            </div>
+                            <button type="button" class="comment-like hater">
+                                <img class="like-heart" src="../Media/empty-heart.png"/>
+                                <h3 class="like-count hater-count">0</h3>
+                            </button>
+                        </div>
+                        <div class="commet-text">
+                            <h4>
+                                Muito ruim, não gostei do filme!!
+                            </h4>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="card">
+                        <div class="data">
+                            <div class="avatar">
+                                <img class="avatar-icon" src="../Media/person-icon.png"/>
+                                <h3 class="avatar-name">Minhas Dívidas Minhas Regras</h3>
+                            </div>
+                            <button type="button" class="comment-like">
+                                <img class="like-heart" src="../Media/full-heart.png"/>
+                                <h3 class="like-count">583</h3>
+                            </button>
+                        </div>
+                        <div class="commet-text">
+                            <h4>
+                                Gostei do filme, mas achei muito caro a pipoca, e o engresso, e o preço do estacionamento, e o boleto do meu carro, e o imprestimo da minha casa, efim... gostei do filme 😁
+                            </h4>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="send-comment">
+                        <form action="./comments.html">
+                            <label for="your-comment">Compartilhe sua opnião</label>
+                            <textarea name="comment" name="comment" id="comment" rows="7" placeholder="Seu comentário"></textarea>
+                            <button class="send-button">Enviar</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
         </div>
 
         <footer>
