@@ -185,4 +185,30 @@ span {
     #banner {
         background-position: 40%;
     }
+
+    .contact-us-text {
+        display: block;
+    }
+
+    .contact-box {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 70px;
+        height: 620px;
+    }
+
+    .contact-info {
+        width: 100%;
+    }
+
+    .card {
+        margin-top: 10px;
+    }
+
+    .contact-input {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
